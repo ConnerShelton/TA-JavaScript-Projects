@@ -1,3 +1,4 @@
+//Makes sure users are the appropriate height
 function Ride_Function() {
     var Height, Can_ride;
     Height=document.getElementById("Height").value;
@@ -5,6 +6,7 @@ function Ride_Function() {
     document.getElementById("Ride").innerHTML=Can_ride+" to ride";
 }
 
+//Makes sure users are the appropriate age
 function Vote_Function() {
     var Age, Can_vote;
     Age=document.getElementById("Age").value;
@@ -12,6 +14,7 @@ function Vote_Function() {
     document.getElementById("Vote").innerHTML=Can_vote+" to vote.";
 }
 
+//uses this and new formats to make a statement about a car owner
 function Vehicle(Make, Model, Year, Color) {
     this.Vehicle_Make=Make;
     this.Vehicle_Model=Model;
@@ -27,6 +30,7 @@ function myFunction() {
     " manufactured in "+Erik.Vehicle_Year;
 }
 
+//uses this and new formats to make a statement about Video Games
 function Game(Style, Style2, Engine, Shading) {
     this.Game_Style=Style;
     this.Game_Style2=Style2;
@@ -41,6 +45,7 @@ function myFunction1() {
     "Kingdom Come:Deliverance is a "+Kingdom_Come_Deliverance.Game_Style+" First Person \"Medieval Combat Game\" that uses the "+Kingdom_Come_Deliverance.Game_Engine;
 }
 
+//this is my nested function
 function count_Function() {
     document.getElementById("Nested_Function").innerHTML=Count();
     function Count() {
