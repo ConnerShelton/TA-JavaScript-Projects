@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Private Operations Group</title>
+		<link rel="stylesheet" href="./CSS/animations.css">
+		<link rel="stylesheet" href="./CSS/shared.css">
+		<link rel="stylesheet" href="./CSS/lightbox.css">
+		<script src="./JS/OnePageWebsite.js"></script>
+	</head>
+	<body>
+
+		<!--NAV-->
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#contact"><li>SIGN-UP</li></a>
+				</ul>
+			</div>
+		</div>
+		<!--END NAV-->
+
+		<!--HOME-->
+		<div id="home">
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Leaders in Private Operations</span>
+				</div>
+			</div>
+		</div>
+		<!--END HOME-->
+
+		<!--GALLERY-->
+		<section id="gallery">
+			<div class="container">
+				<h1>GALLERY</h1>
+				<div class="flex-container">
+
+					<!--PHOTO CONTAINER 1-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./thumb/image1.jpg" alt="">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several availible positions, sign up today!</p>
+							</div>
+						</div>
+					</div>
+					<!--ENDPHOTO CONTAINER 1-->
+
+					<!--PHOTO CONTAINER 2-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./thumb/image2.jpg" alt="">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several availible positions, sign up today!</p>
+							</div>
+						</div>
+					</div>
+					<!--ENDPHOTO CONTAINER 2-->
+
+					<!--PHOTO CONTAINER 3-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./thumb/image3.jpg" alt="">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several availible positions, sign up today!</p>
+							</div>
+						</div>
+					</div>
+					<!--ENDPHOTO CONTAINER 3-->
+
+					<!--PHOTO CONTAINER 4-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./thumb/image4.jpg" alt="">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several availible positions, sign up today!</p>
+							</div>
+						</div>
+					</div>
+					<!--ENDPHOTO CONTAINER 4-->
+
+					<!--PHOTO CONTAINER 5-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./thumb/image5.jpg" alt="">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several availible positions, sign up today!</p>
+							</div>
+						</div>
+					</div>
+					<!--ENDPHOTO CONTAINER 5-->
+
+					<!--PHOTO CONTAINER 6-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./thumb/image6.jpg" alt="">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several availible positions, sign up today!</p>
+							</div>
+						</div>
+					</div>
+					<!--ENDPHOTO CONTAINER 6-->
+
+					<!--PHOTO CONTAINER 7-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./thumb/image7.jpg" alt="">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several availible positions, sign up today!</p>
+							</div>
+						</div>
+					</div>
+					<!--ENDPHOTO CONTAINER 7-->
+
+					<!--PHOTO CONTAINER 8-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./thumb/image8.jpg" alt="">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several availible positions, sign up today!</p>
+							</div>
+						</div>
+					</div>
+					<!--ENDPHOTO CONTAINER 8-->
+
+					<!--PHOTO CONTAINER 9-->
+					<div class="photo-container">
+						<div class="photo">
+							<img src="./thumb/image9.jpg" alt="">
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
+								<p>We have several availible positions, sign up today!</p>
+							</div>
+						</div>
+					</div>
+					<!--ENDPHOTO CONTAINER 9-->
+				</div>
+			</div>
+		</section>
+		<!--END GALLERY-->
+		<section id="locations">
+		<div class="container">
+			<div class="flex-container">
+				<h2>Work in stunning environments!!!(Click Images to Veiw)</h2>
+
+				<div class="row">
+					<div class="column">
+						<img src="./lightbox/img_nature.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+					</div>
+					<div class="column">
+						<img src="./lightbox/img_snow.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+					</div>
+					<div class="column">
+						<img src="./lightbox/img_mountains.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+					</div>
+					<div class="column">
+						<img src="./lightbox/img_lights.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+					</div>
+					</div>
+
+					<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+
+						<div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="./lightbox/img_nature_wide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="./lightbox/img_snow_wide.jpg" style="width:100%">
+						</div>
+
+						<div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="./lightbox/img_mountains_wide.jpg" style="width:100%">
+						</div>
+						
+						<div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="./lightbox/img_lights_wide.jpg" style="width:100%">
+						</div>
+						
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						<div class="caption-container">
+						<p id="caption"></p>
+						</div>
+
+
+						<div class="column">
+						<img class="demo cursor" src="./lightbox/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+						</div>
+						<div class="column">
+						<img class="demo cursor" src="./lightbox/img_snow_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+						</div>
+						<div class="column">
+						<img class="demo cursor" src="./lightbox/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+						</div>
+						<div class="column">
+						<img class="demo cursor" src="./lightbox/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</section>
+		<!--RSVP-->
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Reservations</h1>
+					<div class="reservation">
+						<h2><span>Your adventure is just around the corner.</span>
+							<br/>Reserve your spot in our ranks today!
+						</h2>
+						<p class="rsvp-text">
+							Please provide us with your basic contact information.
+						</p>
+						<div class="form-rsvp">
+							<form action="" method="post">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<input class="rsvp" type="text" value="" placeholder="First Name">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div class="submit">
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--END RSVP-->
+
+		<!--FOOTER-->
+		<div id="footer">
+			www.PrivateOpsGroup.pmc &nbsp;|&nbsp; &copy; 2017
+		</div>
+	</body>
+</html>
