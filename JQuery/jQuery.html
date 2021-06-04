@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+    <head> <!--jQuery link-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    </head>
-        <script>
+    </head>  <!--Creates our basic page using HTML inside jQuery-->
+        <script> 
             $(document).ready(function() {
                 $("html").append(
                     "<body>\
@@ -16,7 +16,7 @@
                             </div>\
                         </div>\
                     </body>"
-                );
+                ); //changes parts of the page using jQuery
                 $("#2").css({"color":"red"});
                 $("#3").click(function() {
                     $('h1').hide();
